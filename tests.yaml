@@ -1,0 +1,7 @@
+test-cases:
+- name: Default Build Test # Deploy using all default options
+  create:
+    timeout: 120 # Deployment should complete in under 30 minutes
+    parameters:
+      SSHPubKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpjKE3xFx7AjXFD7n23LLWogH9LCYlOZo6R+LOUNdYqmP7yR33fSQADn/qbqsfnOuMLgJfzflUZdwPUCTRv6/20U5YaOL2jawtv4LqXuQ3zzy3QVE6owiD/8MIkPP4COwTPmCFRTNQ9VNehyc/mIBI2dsWM58uFp4vFLAuqOyJM6AbHubz+gTFMt9OB64XkpOvDwrH3a+C+pF5i459IBXkG2uidn0gIe7k5sZg6IO5D1gMkCwIa4TjhHYE8i4kDjLVNBjQ1KRKGEz7qHpMjFqb1+3WmwCp9BSHWzqAh33xMCrs5zWhrzNcRlJzxE8hF3mLMJ0r+lKufF9mjuvPiOwf chri8225@MMR28KFD58
+      SSHKeyPairName: TestKeyPair
